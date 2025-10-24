@@ -8,7 +8,7 @@
 npm install
 ```
 
-Запуск dev-сервер:
+Запуск dev сервера:
 
 ```bash
 npm run dev

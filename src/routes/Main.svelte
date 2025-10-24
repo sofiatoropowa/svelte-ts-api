@@ -1,9 +1,9 @@
 <script lang="ts">
   import { replace } from "svelte-spa-router";
   import { onMount } from "svelte";
-  import { isTokenValid, clearAuth } from "../auth";
+  import { isTokenValid, clearAuth } from "../utils/auth";
 
-  import type { DataRecord } from "../types";
+  import type { DataRecord } from "../utils/types";
 
   let apiData: DataRecord[] = [],
     currentPage = 1,

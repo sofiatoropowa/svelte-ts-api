@@ -1,6 +1,6 @@
 <script lang="ts">
   import { push } from "svelte-spa-router";
-  import type { AuthResponse } from "../types";
+  import type { AuthResponse } from "../utils/types";
 
   let login: string = "",
     password: string = "",
